@@ -25,4 +25,3 @@ jobs:
           echo "MongoDB Collection Name: $MONGO_DB_COLLECTION_NAME"
           echo "GitHub Username: $GITHUB_USERNAME"
           echo "GitHub PAT: $GITHUB_PAT"
-          
