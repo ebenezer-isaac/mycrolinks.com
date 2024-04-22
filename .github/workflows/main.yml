@@ -18,5 +18,8 @@ jobs:
       GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
       GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
     steps:
-      - name: Print Operating System
-        run: echo "Running on ${{ matrix.os }}"
+      - name: Print Environment Variables for Debugging
+        run: |
+          echo "MongoDB Connection String: $MONGO_DB_CONNECTION_STRING"
+          echo "MongoDB Name: $MONGO_DB_NAME"
+          # Repeat for other variables
