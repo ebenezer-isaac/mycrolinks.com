@@ -1,0 +1,22 @@
+name: MongoDB and GitHub Operations Cross-Platform
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    env:
+      MONGO_DB_CONNECTION_STRING: ${{ secrets.MONGO_DB_CONNECTION_STRING }}
+      MONGO_DB_NAME: ${{ secrets.MONGO_DB_NAME }}
+      MONGO_DB_COLLECTION_NAME: ${{ secrets.MONGO_DB_COLLECTION_NAME }}
+      GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+      GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+    steps:
+      - name: Print Operating System
+        run: echo "Running on ${{ matrix.os }}"
