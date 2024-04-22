@@ -15,11 +15,14 @@ jobs:
       MONGO_DB_CONNECTION_STRING: ${{ secrets.MONGO_DB_CONNECTION_STRING }}
       MONGO_DB_NAME: ${{ secrets.MONGO_DB_NAME }}
       MONGO_DB_COLLECTION_NAME: ${{ secrets.MONGO_DB_COLLECTION_NAME }}
-      GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
-      GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+      GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
+      GITHUB_PAT: ${{ secrets.GH_PAT }}
     steps:
       - name: Print Environment Variables for Debugging
         run: |
           echo "MongoDB Connection String: $MONGO_DB_CONNECTION_STRING"
           echo "MongoDB Name: $MONGO_DB_NAME"
-          # Repeat for other variables
+          echo "MongoDB Collection Name: $MONGO_DB_COLLECTION_NAME"
+          echo "GitHub Username: $GITHUB_USERNAME"
+          echo "GitHub PAT: $GITHUB_PAT"
+          
