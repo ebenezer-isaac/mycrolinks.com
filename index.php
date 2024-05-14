@@ -6,7 +6,7 @@ include 'env.php';
 
 <head>
     <meta charset="UTF-8">
-    <title>Industing - Industry & Factory Business HTML5 Template</title>
+    <title>MycroLinks Consultancies</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Include All CSS here-->
@@ -32,7 +32,7 @@ include 'env.php';
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
     <!-- Favicon Icon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/hi_logo.png" />
 </head>
 
 <body>
@@ -52,8 +52,23 @@ include 'env.php';
                 <div class="col-xl-4 col-lg-4 col-md-3 noPadding">
                     <div class="logo text-left">
                         <a href="index.html" class="kreon-font">
-                            <img src="images/hi_logo.png" alt="MycroLinks" /> MycroLinks
+                            <img src="images/hi_logo.png" alt="MycroLinks" id="logo-image">
+                            <span id="logo-text"></span>
                         </a>
+                        <script>
+                            function updateLogoText() {
+                                var logoText = document.getElementById('logo-text');
+                                if (window.innerWidth < 992) {
+                                    logoText.innerHTML = '';
+                                } else {
+                                    logoText.innerHTML = 'MycroLinks';
+                                }
+                            }
+
+                            window.addEventListener('resize', updateLogoText);
+                            window.addEventListener('load', updateLogoText);
+                        </script>
+                        </script>
                     </div>
                 </div>
                 <div class="col-xl-8 col-lg-8 col-md-9">
@@ -87,7 +102,22 @@ include 'env.php';
                     <nav class="mainmenu">
                         <ul>
                             <li class="current-menu-item">
-                                <a href="#">Home</a>
+                                <a href="javascript:scrollToSection('visionSection');">Our Vision</a>
+                            </li>
+                            <li>
+                                <a href="javascript:scrollToSection('servicesSection');">Services</a>
+                            </li>
+                            <li>
+                                <a href="javascript:scrollToSection('commitmentsSection');">Commitments</a>
+                            </li>
+                            <li>
+                                <a href="javascript:scrollToSection('solutionsSection');">Solutions</a>
+                            </li>
+                            <li>
+                                <a href="javascript:scrollToSection('projectSection');">Projects</a>
+                            </li>
+                            <li>
+                                <a href="javascript:scrollToSection('contactSection');">Contact</a>
                             </li>
                         </ul>
                     </nav>
@@ -124,8 +154,28 @@ include 'env.php';
                     <div class="popup-inner">
                         <div class="dl-menu__wrap dl-menuwrapper">
                             <ul class="dl-menu dl-menuopen">
-
+                                <li>
+                                    <a href="javascript:scrollToSection('visionSection');">Our Vision</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:scrollToSection('servicesSection');">Services</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:scrollToSection('commitmentsSection');">Commitments</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:scrollToSection('solutionsSection');">Solutions</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:scrollToSection('projectSection');">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:scrollToSection('contactSection');">Contact</a>
+                                </li>
                             </ul>
+                            <script>
+
+                            </script>
                         </div>
                     </div>
                 </div>
@@ -133,8 +183,8 @@ include 'env.php';
             <div class="row">
                 <div class="col-lg-6 col-sm-6 col-xs-12 text-left">
                     <ul class="footer__contacts">
-                        <li>Phone: +91 97876 77667</li>
-                        <li>Email: mail@mycrolinks.com</li>
+                        <li>Phone: <a href="tel:+919787677667">+91 97876 77667</a></li>
+                        <li>Email: <a href="mailto:mail@mycrolinks.com">mail@mycrolinks.com</a></li>
                         <li>Address: Hinjewadi, Pune, India</li>
                     </ul>
                 </div>
@@ -162,7 +212,7 @@ include 'env.php';
                             At
                         </div>
                         <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3" data-x="['left', 'left', 'left', 'left']" data-hoffset="['0', '0', '0', '0']" data-y="['top','middle','middle','middle']" data-voffset="['41','-40','-50','-50']" data-fontsize="['100','90','60','50']" data-lineheight="['110','90','60','50']" data-fontweight="600" data-letterspacing="['-3', '-3', '-2', '-1']" data-width="['700','100%','100%','100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: normal;">
-                            MycroLinks Consultancy
+                            MycroLinks Consultancies
                         </div>
                         <div class="tp-caption tp-resizeme textRes" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['55','80','30','30']" data-fontsize="['18','18','18','15']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="['auto', '100%', '100%', '100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; word-break: break-all;  white-space: nowrap; text-transform: none;">
                             We democratize technology. We make cutting-edge tech accessible to all.
@@ -179,7 +229,7 @@ include 'env.php';
                             At
                         </div>
                         <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3" data-x="['left', 'left', 'left', 'left']" data-hoffset="['0', '0', '0', '0']" data-y="['top','middle','middle','middle']" data-voffset="['41','-40','-50','-50']" data-fontsize="['100','90','60','50']" data-lineheight="['110','90','60','50']" data-fontweight="600" data-letterspacing="['-3', '-3', '-2', '-1']" data-width="['700','100%','100%','100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: normal;">
-                            MycroLinks Consultancy
+                            MycroLinks Consultancies
                         </div>
                         <div class="tp-caption  tp-resizeme textRes" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['55','80','30','30']" data-fontsize="['18','18','18','15']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="['auto', '100%', '100%', '100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;">
                             We democratize technology. We make cutting-edge tech accessible to all.
@@ -196,7 +246,7 @@ include 'env.php';
         </div>
     </section>
 
-    <section class="commonSection">
+    <section class="commonSection" id="visionSection">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 noPaddingRight">
@@ -234,7 +284,7 @@ include 'env.php';
     </section>
 
 
-    <section class="commonSection graySection">
+    <section class="commonSection graySection" id="servicesSection">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 text-center">
@@ -245,7 +295,7 @@ include 'env.php';
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-12">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-computer"></i>
                         <i class="smaller icofont-computer"></i>
@@ -256,7 +306,7 @@ include 'env.php';
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-12">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-chart-growth"></i>
                         <i class="smaller icofont-chart-growth"></i>
@@ -267,7 +317,7 @@ include 'env.php';
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-12">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-ui-love"></i>
                         <i class="smaller icofont-ui-love"></i>
@@ -283,7 +333,7 @@ include 'env.php';
     </section>
 
 
-    <section class="funfactSection">
+    <section class="funfactSection" id="commitmentsSection">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 noPadding">
@@ -335,7 +385,7 @@ include 'env.php';
 
 
 
-    <section class="commonSection graySection">
+    <section class="commonSection graySection" id="solutionsSection">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 text-center">
@@ -346,7 +396,7 @@ include 'env.php';
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-12">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-code-alt"></i>
                         <i class="smaller icofont-code-alt"></i>
@@ -362,7 +412,7 @@ include 'env.php';
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-12">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-cloud-upload"></i>
                         <i class="smaller icofont-cloud-upload"></i>
@@ -378,7 +428,7 @@ include 'env.php';
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-4 col-md-12">
                     <div class="icon_box_01 text-center">
                         <i class="bigger icofont-live-support"></i>
                         <i class="smaller icofont-live-support"></i>
@@ -526,7 +576,7 @@ include 'env.php';
         </div>
     </section>
     <!-- <script src="js/project.section.pagination.js"></script> -->
-    <section class="calltoactions">
+    <section class="calltoactions" id="contactSection">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-md-8">
@@ -535,9 +585,6 @@ include 'env.php';
                         <h6>24/7 We Are available</h6>
                         <h2>We Are Here For Your Help</h2>
                     </div>
-                </div>
-                <div class="col-xl-4 col-md-4 text-right pdt29">
-                    <a href="#" class="ind_btn id_dark2"><span>Get a Quote</span></a>
                 </div>
             </div>
         </div>
@@ -551,9 +598,9 @@ include 'env.php';
                         <div class="ib5_inner">
                             <h3>Office Location</h3>
                             <p>
-                                475/W 13th Street, Cooper <br />New York, United States
+                                Hinjewadi, Pune, India
                             </p>
-                            <a href="#">Find Us On Map</a>
+                            <a href="https://maps.app.goo.gl/ibp4Nr6pTnWVAmR6A">Find Us On Map</a>
                         </div>
                     </div>
                 </div>
@@ -575,7 +622,10 @@ include 'env.php';
                         <div class="ib5_inner">
                             <h3>Call Us</h3>
                             <p>
-                                +909 797 6896 <br />+(786) 7876 5675
+                            <p>
+                                <a href="tel:+919787677667">+91 97876 77667</a> <br />
+                                <a href="tel:+918248478079">+91 82484 78079</a>
+                            </p>
                             </p>
                             <a href="#">Call Now</a>
                         </div>
@@ -654,7 +704,7 @@ include 'env.php';
             <div class="row">
                 <div class="col-xl-12 noPadding">
                     <div class="gmap">
-                        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=new%20yourk&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121006.00020823091!2d73.63481731774851!3d18.599381337939867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbc048041bef%3A0xd0c9eb5ac3c3dee5!2sHinjawadi%2C%20Pune%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1715710443016!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -667,15 +717,14 @@ include 'env.php';
                 <div class="col-xl-3 col-md-6 col-lg-3 noPaddingRight">
                     <aside class="widget">
                         <div class="about_widget">
-                            <a href="index.html"><img src="images/logo_2.png" alt="" /></a>
+                            <a href="index.html"><img src="images/logo.png" alt="" class="footer_logo" /></a>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                MycroLinks advocates for technology as a fundamental right, aiming to make digital tools universally accessible. Through innovation and outreach, we ensure inclusivity in benefiting from technology, leaving no one behind in the digital age.
                             </p>
                             <div class="caller">
                                 <i class="fal fa-headphones"></i>
                                 <span>Talk to Our Officers</span>
-                                <h3>+1 001-765-4321</h3>
+                                <a href="tel:+919787677667">+91 97876 77667</a>
                             </div>
                         </div>
                     </aside>
@@ -684,34 +733,33 @@ include 'env.php';
                     <aside class="widget">
                         <h3 class="widget_title">Important Links<span>.</span></h3>
                         <ul>
-                            <li><a href="#">About Company</a></li>
-                            <li><a href="#">Latest Projects</a></li>
-                            <li><a href="#">Latest From Blog</a></li>
-                            <li><a href="#">Our Testimonials</a></li>
-                            <li><a href="#">Our Mission</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Get a Quot</a></li>
+                            <li><a href="javascript:scrollToSection('visionSection');">Our Vision</a></li>
+                            <li><a href="javascript:scrollToSection('servicesSection');">Our Services</a></li>
+                            <li><a href="javascript:scrollToSection('commitmentsSection');">Our Commitments</a></li>
+                            <li><a href="javascript:scrollToSection('solutionsSection');">Our Solutions</a></li>
+                            <li><a href="javascript:scrollToSection('projectSection');">Our Projects</a></li>
+                            <li><a href="javascript:scrollToSection('contactSection');">Contact Us</a></li>
                         </ul>
                     </aside>
                 </div>
                 <div class="col-xl-4 col-md-6 col-lg-4 pdl65">
                     <aside class="widget">
-                        <h3 class="widget_title">Our Services<span>.</span></h3>
+                        <h3 class="widget_title">Our Solutions<span>.</span></h3>
                         <div class="recentServices">
                             <div class="serviceItem clearfix">
                                 <img class="float-left" src="images/widget/1.jpg" alt="" />
-                                <h5><a href="#">Lorem ipsum dolor sit am et, consectetur.</a></h5>
-                                <span>14 Jnauary, 2019</span>
+                                <h5><a href="#">Custom Software Development</a></h5>
+                                <span>Tailoring cutting-edge</span>
                             </div>
                             <div class="serviceItem clearfix">
                                 <img class="float-left" src="images/widget/2.jpg" alt="" />
-                                <h5><a href="#">Lorem ipsum dolor sit am et, consectetur.</a></h5>
-                                <span>19 February, 2019</span>
+                                <h5><a href="#">Hosting & DevOps</a></h5>
+                                <span>Streamlining deployment</span>
                             </div>
                             <div class="serviceItem clearfix">
                                 <img class="float-left" src="images/widget/3.jpg" alt="" />
-                                <h5><a href="#">Lorem ipsum dolor sit am et, consectetur.</a></h5>
-                                <span>14 July, 2018</span>
+                                <h5><a href="#">Support & Maintenance</a></h5>
+                                <span>Ensuring reliability</span>
                             </div>
                         </div>
                     </aside>
@@ -743,7 +791,7 @@ include 'env.php';
             <div class="row">
                 <div class="col-xl-12">
                     <div class="siteinfo">
-                        Copyright By &COPY;<a href="#">ThemeWar</a> - 2019
+                        Copyright By &COPY;<a href="#">MycroLinks</a> - 2024
                     </div>
                 </div>
             </div>
@@ -781,6 +829,14 @@ include 'env.php';
     <script src="js/project.section.pagination.js"></script>
     <script src="js/theme.js"></script>
     <!-- Include All JS -->
+    <script>
+        function scrollToSection(sectionName) {
+            document.getElementById('close-popup').click();
+            $('html, body').animate({
+                scrollTop: $('#' + sectionName).offset().top
+            }, 1000);
+        }
+    </script>
 </body>
 
 </html>

@@ -493,7 +493,14 @@ License URI:
 }
 
 .popup_logos img {
-    max-height: 51px;
+    max-height: 80px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.footer_logo {
+    max-height: 80px;
+    border-radius: 10px;
     width: auto;
 }
 
@@ -632,12 +639,16 @@ License URI:
     transition: all 0.6s cubic-bezier(0.7, 0, 0.3, 1);
 }
 
+.dl-menu__wrap ul li a:hover {
+    color: #3F51B5;
+}
+
 .dl-menu__wrap ul li.menu-item-has-children a {
     padding-right: 30px;
 }
 
 .dl-menu__wrap ul li a::after {
-    background-color: #ff5e14;
+    background-color: #fcdb03;
     content: '';
     height: 100%;
     margin: auto;
@@ -4715,7 +4726,7 @@ License URI:
     text-align: center;
     line-height: .9;
     margin-bottom: -1px;
-    background:#fcdb03 !important;
+    background: #fcdb03 !important;
 }
 
 .sf5_det>a:hover {
