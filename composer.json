@@ -1,0 +1,19 @@
+{
+    "name": "ebene/mycrolinks.com",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ebene\\MycrolinksCom\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ebenezer Isaac",
+            "email": "mail@ebenezer-isaac.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.18",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
