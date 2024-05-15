@@ -79,7 +79,9 @@ function getTags($username, $repo, $token) {
         return [];
     }
     $content = base64_decode($data['content']);
-    return explode("\n", $content);
+    $tags = explode("\n", $content);
+    $tags = array_map('trim', $tags); // Remove leading and trailing spaces from each tag
+    return $tags;
 }
 
 function fetchRepositories($username, $token) {
@@ -152,6 +154,8 @@ function fetchRepositories($username, $token) {
     } while (!empty($repos));
 
     // Update MongoDB with filtered data
+    //delete all
+    $collection->deleteMany([]);
     $collection->insertOne([
         'updated_at' => date('c'), // ISO 8601 format
         'data' => $allRepos
