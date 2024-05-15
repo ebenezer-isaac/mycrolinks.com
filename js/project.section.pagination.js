@@ -197,7 +197,7 @@ function adjustProjectHeights() {
 
 //onload updateProjects
 document.addEventListener("DOMContentLoaded", function () {
-  updateProjects(true);
+  updateProjects(false, 'all');
 });
 window.addEventListener(
   "resize",

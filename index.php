@@ -6,7 +6,7 @@ include 'env.php';
 
 <head>
     <meta charset="UTF-8">
-    <title>MycroLinks Consultancies</title>
+    <title>MycroLinks</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Include All CSS here-->
@@ -207,23 +207,6 @@ include 'env.php';
             <div id="rev_slider_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
                 <ul>
                     <li data-index="rs-3045" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="images/slider/t_1.jpg" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                        <img src="images/slider/1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','middle','middle','middle']" data-voffset="['13', '-140', '-110', '-110']" data-fontsize="['16','16','16','15']" data-fontweight="500" data-lineheight="['16','16','16','16']" data-width="none" data-height="none" data-whitespace="nowrap" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: uppercase;">
-                            At
-                        </div>
-                        <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3" data-x="['left', 'left', 'left', 'left']" data-hoffset="['0', '0', '0', '0']" data-y="['top','middle','middle','middle']" data-voffset="['41','-40','-50','-50']" data-fontsize="['100','90','60','50']" data-lineheight="['110','90','60','50']" data-fontweight="600" data-letterspacing="['-3', '-3', '-2', '-1']" data-width="['700','100%','100%','100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: normal;">
-                            MycroLinks Consultancies
-                        </div>
-                        <div class="tp-caption tp-resizeme textRes" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['55','80','30','30']" data-fontsize="['18','18','18','15']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="['auto', '100%', '100%', '100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; word-break: break-all;  white-space: nowrap; text-transform: none;">
-                            We democratize technology. We make cutting-edge tech accessible to all.
-                        </div>
-                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['135','140','100','100']" data-fontsize="['18','18','18','18']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="auto" data-height="none" data-whitespace="nowrap" data-color="['#FFF', '#FFF', '#FFF', '#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: none;">
-                            <a href="#" class="ind_btn">
-                                <span>Get A Quote</span>
-                            </a>
-                        </div>
-                    </li>
-                    <li data-index="rs-3046" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="images/slider/t_2.jpg" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <img src="images/slider/2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','middle','middle','middle']" data-voffset="['13', '-140', '-110', '-110']" data-fontsize="['16','16','16','15']" data-fontweight="500" data-lineheight="['16','16','16','16']" data-width="none" data-height="none" data-whitespace="nowrap" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: uppercase;">
                             At
@@ -231,16 +214,36 @@ include 'env.php';
                         <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3" data-x="['left', 'left', 'left', 'left']" data-hoffset="['0', '0', '0', '0']" data-y="['top','middle','middle','middle']" data-voffset="['41','-40','-50','-50']" data-fontsize="['100','90','60','50']" data-lineheight="['110','90','60','50']" data-fontweight="600" data-letterspacing="['-3', '-3', '-2', '-1']" data-width="['700','100%','100%','100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: normal;">
                             MycroLinks Consultancies
                         </div>
-                        <div class="tp-caption  tp-resizeme textRes" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['55','80','30','30']" data-fontsize="['18','18','18','15']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="['auto', '100%', '100%', '100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;">
-                            We democratize technology. We make cutting-edge tech accessible to all.
+                        <div class="tp-caption tp-resizeme textRes" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['55','80','30','30']" data-fontsize="['18','18','18','15']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="['auto', '100%', '100%', '100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; word-break: break-all;  white-space: nowrap; text-transform: none;">
+                            We are the link between you and technology.
                         </div>
-                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['135','140','100','100']" data-fontsize="['18','18','18','18']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="none" data-height="none" data-whitespace="nowrap" data-color="['#FFF', '#FFF', '#FFF', '#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: none;">
-                            <a href="#" class="ind_btn">
-                                <span>Get A Quote</span>
+                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['135','140','100','100']" data-fontsize="['18','18','18','18']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="auto" data-height="none" data-whitespace="nowrap" data-color="['#FFF', '#FFF', '#FFF', '#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: none;">
+                            <a href="javascript:scrollToSection('contactSection');" class="ind_btn">
+                                <span>Contact Us</span>
                             </a>
                         </div>
                     </li>
-
+                    <li data-index="rs-3047" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="images/slider/t_2.jpg" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                        <img src="images/slider/1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','middle','middle','middle']" data-voffset="['13', '-140', '-110', '-110']" data-fontsize="['16','16','16','15']" data-fontweight="500" data-lineheight="['16','16','16','16']" data-width="none" data-height="none" data-whitespace="nowrap" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
+                                 {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: uppercase;">
+                            At
+                        </div>
+                        <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3" data-x="['left', 'left', 'left', 'left']" data-hoffset="['0', '0', '0', '0']" data-y="['top','middle','middle','middle']" data-voffset="['41','-40','-50','-50']" data-fontsize="['100','90','60','50']" data-lineheight="['110','90','60','50']" data-fontweight="600" data-letterspacing="['-3', '-3', '-2', '-1']" data-width="['700','100%','100%','100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
+                                 {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: normal;">
+                            MycroLinks Consultancies
+                        </div>
+                        <div class="tp-caption  tp-resizeme textRes" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['55','80','30','30']" data-fontsize="['18','18','18','15']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="['auto', '100%', '100%', '100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
+                                 {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;">
+                            We democratize technology. We make cutting-edge tech accessible to all.
+                        </div>
+                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['135','140','100','100']" data-fontsize="['18','18','18','18']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="none" data-height="none" data-whitespace="nowrap" data-color="['#FFF', '#FFF', '#FFF', '#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                 {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: none;">
+                            <a href="javascript:scrollToSection('contactSection');" class="ind_btn">
+                                <span>Contact Us</span>
+                            </a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -253,11 +256,10 @@ include 'env.php';
                     <div class="video_01 mrm15 text-right">
                         <!-- Consider updating these images to reflect the vision theme -->
                         <img src="images/home/vision_1.jpg" alt="Our Vision at MycroLinks" />
-                        <div class="vp">
+                        <!-- <div class="vp" style="border:black">
                             <img src="images/home/vision_2.jpg" alt="Future of Technology with MycroLinks" />
-                            <!-- Link to a video that encapsulates MycroLinks' vision -->
-                            <a class="videoPlayer" href="https://player.vimeo.com/video/[Your_Video_ID]"><i class="fa fa-play"></i></a>
-                        </div>
+                            <a class="videoPlayer" href="https://media.istockphoto.com/id/1474198714/video/global-digital-grid-growing-over-earth-looped-net-3d-animation-ai-neural-networks-covering.mp4?s=mp4-640x640-is&k=20&c=zU_cA1DvL9PLx1TMM1p0A_mlbTSciufs1zf9G7R-3No="><i class="fa fa-play"></i></a>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
@@ -271,12 +273,7 @@ include 'env.php';
                             At MycroLinks, we believe in a future where technology is a right, not a luxury. Our vision is to make digital tools accessible to all, breaking down the barriers that prevent many from leveraging the digital revolution. Through innovative solutions and dedicated outreach, we aim to foster a more inclusive world where everyone can benefit from the advancements in technology, ensuring no one is left behind in the digital age.
                         </p>
                         <!-- Consider updating this image to something more aligned with your vision -->
-                        <img src="images/profile-pic.jpg" alt="Signature of CEO/Founder of MycroLinks" style="max-height: 125px;" />
-                        <p>
-                            Ebenezer Isaac
-                            <br>
-                            CEO & Founder, MycroLinks
-                        </p>
+                        <!-- <img src="images/profile-pic.jpg" alt="Signature of CEO/Founder of MycroLinks" style="max-height: 125px;" /> -->
                     </div>
                 </div>
             </div>
@@ -501,7 +498,7 @@ include 'env.php';
                                             <img src=\"images/works/30.jpg\" alt=\"\">
                                             <div class=\"sf5_meta clearfix\">
                                                 <a href=\"#\" class=\"pull-left\">$relativeCreationDate</a>
-                                                <a href=\"#\" class=\"pull-right\"><i class=\"fal fa-heartbeat\"></i></a>
+                                                <a href=\"#\" class=\"pull-right\"><i class=\"far fa-code\"></i></a>
                                             </div>
                                         </div>
                                         <div class=\"sf5_det\">
@@ -583,8 +580,11 @@ include 'env.php';
                     <div class="cta_left_02">
                         <i class="fal fa-headphones-alt"></i>
                         <h6>24/7 We Are available</h6>
-                        <h2>We Are Here For Your Help</h2>
+                        <h2>We Are Here to be your bridge to Technology</h2>
                     </div>
+                </div>
+                <div class="col-xl-4 col-md-4 text-right pdt29">
+                    <a href="javascript:scrollToSection('contactSection');" class=" ind_btn id_dark2"><span>Contact Now</span></a>
                 </div>
             </div>
         </div>
@@ -598,7 +598,7 @@ include 'env.php';
                         <div class="ib5_inner">
                             <h3>Office Location</h3>
                             <p>
-                                Hinjewadi, Pune, India
+                                Hinjewadi, Pune <span>India - 411057</span>
                             </p>
                             <a href="https://maps.app.goo.gl/ibp4Nr6pTnWVAmR6A">Find Us On Map</a>
                         </div>
@@ -612,7 +612,7 @@ include 'env.php';
                             <p>
                                 Mon - Fri: 09:00am to 07.00pm <span>Sat - Sun: Off Day</span>
                             </p>
-                            <a href="#">Get Directions</a>
+                            <a href="https://maps.app.goo.gl/ibp4Nr6pTnWVAmR6A">Get Directions</a>
                         </div>
                     </div>
                 </div>
@@ -627,7 +627,7 @@ include 'env.php';
                                 <a href="tel:+918248478079">+91 82484 78079</a>
                             </p>
                             </p>
-                            <a href="#">Call Now</a>
+                            <a href="tel:+919787677667">Call Now</a>
                         </div>
                     </div>
                 </div>
@@ -637,9 +637,9 @@ include 'env.php';
                         <div class="ib5_inner">
                             <h3>Email Address</h3>
                             <p>
-                                mail@mycrolinks.com <br />mail@ebenezer-isaac.com
+                                <a href="mailto:mail@mycrolinks.com">mail@mycrolinks.com</a> <br /><a href="mailto:support@mycrolinks.com">support@mycrolinks.com</a>
                             </p>
-                            <a href="#">Mail Us</a>
+                            <a href="mailto:mail@mycrolinks.com">Mail Us</a>
                         </div>
                     </div>
                 </div>
@@ -747,17 +747,17 @@ include 'env.php';
                         <h3 class="widget_title">Our Solutions<span>.</span></h3>
                         <div class="recentServices">
                             <div class="serviceItem clearfix">
-                                <img class="float-left" src="images/widget/1.jpg" alt="" />
+                                <img class="float-left rounded-border-image" src="images/widget/1.jpg" alt="" />
                                 <h5><a href="#">Custom Software Development</a></h5>
                                 <span>Tailoring cutting-edge</span>
                             </div>
                             <div class="serviceItem clearfix">
-                                <img class="float-left" src="images/widget/2.jpg" alt="" />
+                                <img class="float-left rounded-border-image" src="images/widget/2.jpg" alt="" />
                                 <h5><a href="#">Hosting & DevOps</a></h5>
                                 <span>Streamlining deployment</span>
                             </div>
                             <div class="serviceItem clearfix">
-                                <img class="float-left" src="images/widget/3.jpg" alt="" />
+                                <img class="float-left rounded-border-image" src="images/widget/3.jpg" alt="" />
                                 <h5><a href="#">Support & Maintenance</a></h5>
                                 <span>Ensuring reliability</span>
                             </div>
