@@ -188,4 +188,6 @@ function fetchUniqueTags($projects) {
     return $uniqueTags;
 }
 
-//echo json_encode($projects);
+$project = array_filter($projects, function($project) {
+    return $project['file_presence'] == 'mycrolinks';
+});

@@ -81,7 +81,7 @@ include 'env.php';
                         <div class="topbar_element info_element">
                             <i class="fa fa-phone"></i>
                             <h5>Phone Number</h5>
-                            <p>+897 (676) 56 675 7</p>
+                            <p><a href="tel:+919787677667">+91 97876 77667</a></p>
                         </div>
                         <div class="topbar_element settings_bar">
                             <a href="#" class="hamburger" id="open-overlay-nav"><i class="fal fa-bars"></i></a>
@@ -832,6 +832,7 @@ include 'env.php';
     <script>
         function scrollToSection(sectionName) {
             document.getElementById('close-popup').click();
+            document.querySelector('.mobileMenu').style.display = 'none';
             $('html, body').animate({
                 scrollTop: $('#' + sectionName).offset().top
             }, 1000);
