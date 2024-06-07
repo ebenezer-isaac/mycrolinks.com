@@ -18,6 +18,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo 'Success';
     } else {
         echo 'Failure';
+        //print error
+        echo error_get_last()['message'];
+        
     }
 }
 ?>

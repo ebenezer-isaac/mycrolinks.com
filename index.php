@@ -965,6 +965,7 @@ include 'env.php';
                     alert('Mail sent successfully');
                 } else {
                     alert('Mail sending failed');
+                    alert(this.responseText);
                 }
             };
 
