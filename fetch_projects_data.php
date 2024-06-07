@@ -18,7 +18,8 @@ $username = $GH_USERNAME;
 $token = $GH_PAT;
 
 
-function checkFilePresence($username, $repoName, $token) {
+function checkFilePresence($username, $repoName, $token)
+{
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($curl, CURLOPT_HTTPHEADER, [
@@ -52,7 +53,8 @@ function checkFilePresence($username, $repoName, $token) {
     }
 }
 
-function getTags($username, $repo, $token) {
+function getTags($username, $repo, $token)
+{
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
@@ -68,7 +70,8 @@ function getTags($username, $repo, $token) {
             "Authorization: token $token",
             "User-Agent: GitHub-Repo-Tag-Fetcher"
         ),
-    ));
+    )
+    );
 
     $response = curl_exec($curl);
     curl_close($curl);
@@ -84,25 +87,26 @@ function getTags($username, $repo, $token) {
     return $tags;
 }
 
-function fetchRepositories($username, $token) {
+function fetchRepositories($username, $token)
+{
     global $collection;
 
     // Check if data is older than 7 days
     $lastUpdate = $collection->findOne([], ['sort' => ['updated_at' => -1], 'projection' => ['updated_at' => 1]]);
     if ($lastUpdate && strtotime($lastUpdate['updated_at']) > strtotime('-7 days')) {
         $storedData = $collection->find([], ['projection' => ['_id' => 0, 'data' => 1]])->toArray()[0]['data'];
-        
+
         // Convert MongoDB\Model\BSONArray to array before using array_map
         $storedDataArray = iterator_to_array($storedData); // Fix applied here
-        
-        $filteredData = array_map(function($repo) {
+
+        $filteredData = array_map(function ($repo) {
             return [
                 'name' => $repo['name'],
                 'html_url' => $repo['html_url'],
                 'description' => $repo['description'],
                 'created_at' => $repo['created_at'],
                 'updated_at' => $repo['updated_at'],
-                'visibility' => $repo['visibility'], 
+                'visibility' => $repo['visibility'],
                 'file_presence' => $repo['file_presence'],
                 'category' => $repo['category'],
                 'tags' => $repo['tags']
@@ -145,7 +149,7 @@ function fetchRepositories($username, $token) {
                     'visibility' => $repo['visibility'],
                     'file_presence' => $filePresence,
                     'category' => $category,
-                    'tags' => $tags                 
+                    'tags' => $tags
                 ];
             }
             $allRepos = array_merge($allRepos, $repos);
@@ -169,7 +173,8 @@ set_time_limit(300);
 $projects = fetchRepositories($username, $token);
 $uniqueTags = fetchUniqueTags($projects);
 
-function fetchUniqueTags($projects) {
+function fetchUniqueTags($projects)
+{
     $tags = [];
     if (is_array($projects)) {
         foreach ($projects as $project) {
@@ -188,6 +193,7 @@ function fetchUniqueTags($projects) {
     return $uniqueTags;
 }
 
-$project = array_filter($projects, function($project) {
-    return $project['file_presence'] == 'mycrolinks';
+$filteredProject = array_filter($projects, function ($project) {
+    return $project['file_presence'] == 'mycrolinks' || $project['file_presence'] == 'common';
 });
+$projects = array_values($filteredProject);

@@ -206,39 +206,131 @@ include 'env.php';
         <div class="rev_slider_wrapper">
             <div id="rev_slider_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
                 <ul>
-                    <li data-index="rs-3045" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="images/slider/t_1.jpg" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                        <img src="images/slider/2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','middle','middle','middle']" data-voffset="['13', '-140', '-110', '-110']" data-fontsize="['16','16','16','15']" data-fontweight="500" data-lineheight="['16','16','16','16']" data-width="none" data-height="none" data-whitespace="nowrap" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: uppercase;">
+                    <li data-index="rs-3045" data-transition="random" data-slotamount="default" data-hideafterloop="0"
+                        data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"
+                        data-masterspeed="2000" data-thumb="images/slider/t_1.jpg" data-rotate="0"
+                        data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7"
+                        data-saveperformance="off" data-title="Intro" data-param1="" data-param2="" data-param3=""
+                        data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                        data-param10="" data-description="">
+                        <img src="images/slider/2.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                            data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['top','middle','middle','middle']"
+                            data-voffset="['13', '-140', '-110', '-110']" data-fontsize="['16','16','16','15']"
+                            data-fontweight="500" data-lineheight="['16','16','16','16']" data-width="none"
+                            data-height="none" data-whitespace="nowrap" data-color="['#FFF']" data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5; white-space: nowrap; text-transform: uppercase;">
                             At
                         </div>
-                        <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3" data-x="['left', 'left', 'left', 'left']" data-hoffset="['0', '0', '0', '0']" data-y="['top','middle','middle','middle']" data-voffset="['41','-40','-50','-50']" data-fontsize="['100','90','60','50']" data-lineheight="['110','90','60','50']" data-fontweight="600" data-letterspacing="['-3', '-3', '-2', '-1']" data-width="['700','100%','100%','100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: normal;">
+                        <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3"
+                            data-x="['left', 'left', 'left', 'left']" data-hoffset="['0', '0', '0', '0']"
+                            data-y="['top','middle','middle','middle']" data-voffset="['41','-40','-50','-50']"
+                            data-fontsize="['100','90','60','50']" data-lineheight="['110','90','60','50']"
+                            data-fontweight="600" data-letterspacing="['-3', '-3', '-2', '-1']"
+                            data-width="['700','100%','100%','100%']" data-height="['auto']"
+                            data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                            style="z-index: 8; white-space: normal;">
                             MycroLinks Consultancies
                         </div>
-                        <div class="tp-caption tp-resizeme textRes" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['55','80','30','30']" data-fontsize="['18','18','18','15']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="['auto', '100%', '100%', '100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; word-break: break-all;  white-space: nowrap; text-transform: none;">
+                        <div class="tp-caption tp-resizeme textRes" data-x="['left','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['55','80','30','30']" data-fontsize="['18','18','18','15']"
+                            data-fontweight="400" data-lineheight="['22','22','22','22']"
+                            data-width="['auto', '100%', '100%', '100%']" data-height="['auto']"
+                            data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5; word-break: break-all;  white-space: nowrap; text-transform: none;">
                             We are the link between you and technology.
                         </div>
-                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['135','140','100','100']" data-fontsize="['18','18','18','18']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="auto" data-height="none" data-whitespace="nowrap" data-color="['#FFF', '#FFF', '#FFF', '#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: none;">
+                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['135','140','100','100']" data-fontsize="['18','18','18','18']"
+                            data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="auto"
+                            data-height="none" data-whitespace="nowrap" data-color="['#FFF', '#FFF', '#FFF', '#FFF']"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5; white-space: nowrap; text-transform: none;">
                             <a href="javascript:scrollToSection('contactSection');" class="ind_btn">
                                 <span>Contact Us</span>
                             </a>
                         </div>
                     </li>
-                    <li data-index="rs-3047" data-transition="random" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="images/slider/t_2.jpg" data-rotate="0" data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off" data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                        <img src="images/slider/1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
-                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['top','middle','middle','middle']" data-voffset="['13', '-140', '-110', '-110']" data-fontsize="['16','16','16','15']" data-fontweight="500" data-lineheight="['16','16','16','16']" data-width="none" data-height="none" data-whitespace="nowrap" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
-                                 {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: uppercase;">
+                    <li data-index="rs-3047" data-transition="random" data-slotamount="default" data-hideafterloop="0"
+                        data-hideslideonmobile="off" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"
+                        data-masterspeed="2000" data-thumb="images/slider/t_2.jpg" data-rotate="0"
+                        data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7"
+                        data-saveperformance="off" data-title="Intro" data-param1="" data-param2="" data-param3=""
+                        data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+                        data-param10="" data-description="">
+                        <img src="images/slider/1.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                            data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['top','middle','middle','middle']"
+                            data-voffset="['13', '-140', '-110', '-110']" data-fontsize="['16','16','16','15']"
+                            data-fontweight="500" data-lineheight="['16','16','16','16']" data-width="none"
+                            data-height="none" data-whitespace="nowrap" data-color="['#FFF']" data-type="text"
+                            data-responsive_offset="on"
+                            data-frames='[{"delay":1200,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
+                                 {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5; white-space: nowrap; text-transform: uppercase;">
                             At
                         </div>
-                        <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3" data-x="['left', 'left', 'left', 'left']" data-hoffset="['0', '0', '0', '0']" data-y="['top','middle','middle','middle']" data-voffset="['41','-40','-50','-50']" data-fontsize="['100','90','60','50']" data-lineheight="['110','90','60','50']" data-fontweight="600" data-letterspacing="['-3', '-3', '-2', '-1']" data-width="['700','100%','100%','100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
-                                 {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; white-space: normal;">
+                        <div class="tp-caption barlow tp-resizeme rs-parallaxlevel-3 elemnt_3"
+                            data-x="['left', 'left', 'left', 'left']" data-hoffset="['0', '0', '0', '0']"
+                            data-y="['top','middle','middle','middle']" data-voffset="['41','-40','-50','-50']"
+                            data-fontsize="['100','90','60','50']" data-lineheight="['110','90','60','50']"
+                            data-fontweight="600" data-letterspacing="['-3', '-3', '-2', '-1']"
+                            data-width="['700','100%','100%','100%']" data-height="['auto']"
+                            data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
+                                 {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                            style="z-index: 8; white-space: normal;">
                             MycroLinks Consultancies
                         </div>
-                        <div class="tp-caption  tp-resizeme textRes" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['55','80','30','30']" data-fontsize="['18','18','18','15']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="['auto', '100%', '100%', '100%']" data-height="['auto']" data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
-                                 {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;">
+                        <div class="tp-caption  tp-resizeme textRes" data-x="['left','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['55','80','30','30']" data-fontsize="['18','18','18','15']"
+                            data-fontweight="400" data-lineheight="['22','22','22','22']"
+                            data-width="['auto', '100%', '100%', '100%']" data-height="['auto']"
+                            data-whitesapce="['normal', 'normal', 'normal', 'normal']" data-color="['#FFF']"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":1800,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
+                                 {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['left','center','center','center']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5; word-break: break-all; white-space: nowrap; text-transform: none;">
                             We democratize technology. We make cutting-edge tech accessible to all.
                         </div>
-                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['135','140','100','100']" data-fontsize="['18','18','18','18']" data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="none" data-height="none" data-whitespace="nowrap" data-color="['#FFF', '#FFF', '#FFF', '#FFF']" data-type="text" data-responsive_offset="on" data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-                                 {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; text-transform: none;">
+                        <div class="tp-caption  tp-resizeme" data-x="['left','center','center','center']"
+                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+                            data-voffset="['135','140','100','100']" data-fontsize="['18','18','18','18']"
+                            data-fontweight="400" data-lineheight="['22','22','22','22']" data-width="none"
+                            data-height="none" data-whitespace="nowrap" data-color="['#FFF', '#FFF', '#FFF', '#FFF']"
+                            data-type="text" data-responsive_offset="on"
+                            data-frames='[{"delay":2100,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
+                                 {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                            data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+                            style="z-index: 5; white-space: nowrap; text-transform: none;">
                             <a href="javascript:scrollToSection('contactSection');" class="ind_btn">
                                 <span>Contact Us</span>
                             </a>
@@ -268,9 +360,14 @@ include 'env.php';
                         <h2 class="sec_title">
                             A Future Where Technology Empowers Everyone.
                         </h2>
-                        <p class="ind_lead">Envisioning a world where every individual has access to cutting-edge technology.</p>
+                        <p class="ind_lead">Envisioning a world where every individual has access to cutting-edge
+                            technology.</p>
                         <p class="mb28">
-                            At MycroLinks, we believe in a future where technology is a right, not a luxury. Our vision is to make digital tools accessible to all, breaking down the barriers that prevent many from leveraging the digital revolution. Through innovative solutions and dedicated outreach, we aim to foster a more inclusive world where everyone can benefit from the advancements in technology, ensuring no one is left behind in the digital age.
+                            At MycroLinks, we believe in a future where technology is a right, not a luxury. Our vision
+                            is to make digital tools accessible to all, breaking down the barriers that prevent many
+                            from leveraging the digital revolution. Through innovative solutions and dedicated outreach,
+                            we aim to foster a more inclusive world where everyone can benefit from the advancements in
+                            technology, ensuring no one is left behind in the digital age.
                         </p>
                         <!-- Consider updating this image to something more aligned with your vision -->
                         <!-- <img src="images/profile-pic.jpg" alt="Signature of CEO/Founder of MycroLinks" style="max-height: 125px;" /> -->
@@ -299,7 +396,8 @@ include 'env.php';
                         <span></span>
                         <h3>Custom Software Development</h3>
                         <p>
-                            Bespoke software solutions tailored to your needs. We bring your ideas to life with a focus on innovation and quality.
+                            Bespoke software solutions tailored to your needs. We bring your ideas to life with a focus
+                            on innovation and quality.
                         </p>
                     </div>
                 </div>
@@ -310,7 +408,8 @@ include 'env.php';
                         <span></span>
                         <h3>Digital Transformation</h3>
                         <p>
-                            Modernizing operations with the latest technologies. We help you streamline your business for efficiency and growth.
+                            Modernizing operations with the latest technologies. We help you streamline your business
+                            for efficiency and growth.
                         </p>
                     </div>
                 </div>
@@ -321,7 +420,8 @@ include 'env.php';
                         <span></span>
                         <h3>Accessibility Services</h3>
                         <p>
-                            Creating products usable by everyone. Our aim is to make technology accessible, fostering a more inclusive world.
+                            Creating products usable by everyone. Our aim is to make technology accessible, fostering a
+                            more inclusive world.
                         </p>
                     </div>
                 </div>
@@ -347,14 +447,16 @@ include 'env.php';
                                 <i class="fal fa-tags"></i>
                                 <h3>Affordability</h3>
                                 <p>
-                                    Quality tech at affordable prices. We believe in making technology accessible to everyone without breaking the bank.
+                                    Quality tech at affordable prices. We believe in making technology accessible to
+                                    everyone without breaking the bank.
                                 </p>
                             </div>
                             <div class="icon_box_02">
                                 <i class="fal fa-users"></i>
                                 <h3>User-Centric Design</h3>
                                 <p>
-                                    Intuitive products, designed for everyone. Our designs are focused on ease of use to enhance user experience.
+                                    Intuitive products, designed for everyone. Our designs are focused on ease of use to
+                                    enhance user experience.
                                 </p>
                             </div>
                         </div>
@@ -363,14 +465,16 @@ include 'env.php';
                                 <i class="fal fa-award"></i>
                                 <h3>Commitment to Excellence</h3>
                                 <p>
-                                    Enhancing your productivity and satisfaction daily. We're dedicated to continuous improvement and excellence.
+                                    Enhancing your productivity and satisfaction daily. We're dedicated to continuous
+                                    improvement and excellence.
                                 </p>
                             </div>
                             <div class="icon_box_02">
                                 <i class="fal fa-balance-scale"></i>
                                 <h3>Uncompromised Expertise</h3>
                                 <p>
-                                    Our expertise ensures that affordability does not compromise on quality. We deliver top-notch solutions that cater to your needs.
+                                    Our expertise ensures that affordability does not compromise on quality. We deliver
+                                    top-notch solutions that cater to your needs.
                                 </p>
                             </div>
                         </div>
@@ -584,7 +688,8 @@ include 'env.php';
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4 text-right pdt29">
-                    <a href="javascript:scrollToSection('contactSection');" class=" ind_btn id_dark2"><span>Contact Now</span></a>
+                    <a href="javascript:scrollToSection('contactSection');" class=" ind_btn id_dark2"><span>Contact
+                            Now</span></a>
                 </div>
             </div>
         </div>
@@ -637,7 +742,8 @@ include 'env.php';
                         <div class="ib5_inner">
                             <h3>Email Address</h3>
                             <p>
-                                <a href="mailto:mail@mycrolinks.com">mail@mycrolinks.com</a> <br /><a href="mailto:support@mycrolinks.com">support@mycrolinks.com</a>
+                                <a href="mailto:mail@mycrolinks.com">mail@mycrolinks.com</a> <br /><a
+                                    href="mailto:support@mycrolinks.com">support@mycrolinks.com</a>
                             </p>
                             <a href="mailto:mail@mycrolinks.com">Mail Us</a>
                         </div>
@@ -659,34 +765,39 @@ include 'env.php';
             <div class="row">
                 <div class="col-xl-12">
                     <div class="cotactForm">
-                        <form id="contactForm" method="post" action="#" class="row">
+                        <form id="contactForm" method="post" action="sendmail.php" class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="iconInput">
-                                    <input class="required" type="text" name="con_name" id="con_name" placeholder="ENTER YOUR NAME HERE" />
+                                    <input class="required" type="text" name="con_name" id="con_name"
+                                        placeholder="ENTER YOUR NAME HERE" />
                                     <i class="fal fa-user"></i>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="iconInput">
-                                    <input class="required" type="text" name="con_phone" id="con_phone" placeholder="ENTER YOUR NUMBER HERE" />
+                                    <input class="required" type="text" name="con_phone" id="con_phone"
+                                        placeholder="ENTER YOUR NUMBER HERE" />
                                     <i class="fal fa-phone"></i>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="iconInput">
-                                    <input class="required" type="text" name="con_email" id="con_email" placeholder="ENTER YOUR EMAIL HERE" />
+                                    <input class="required" type="text" name="con_email" id="con_email"
+                                        placeholder="ENTER YOUR EMAIL HERE" />
                                     <i class="fal fa-envelope"></i>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="iconInput">
-                                    <input class="required" type="text" name="con_subject" id="con_subject" placeholder="ENTER YOUR SUBJECT HERE" />
+                                    <input class="required" type="text" name="con_subject" id="con_subject"
+                                        placeholder="ENTER YOUR SUBJECT HERE" />
                                     <i class="fal fa-edit"></i>
                                 </div>
                             </div>
                             <div class="col-xl-12">
                                 <div class="iconInput">
-                                    <textarea class="required" name="con_message" id="con_message" placeholder="ENTER YOUR MESSAGE HERE"></textarea>
+                                    <textarea class="required" name="con_message" id="con_message"
+                                        placeholder="ENTER YOUR MESSAGE HERE"></textarea>
                                     <i class="fal fa-pencil-alt"></i>
                                 </div>
                             </div>
@@ -704,7 +815,10 @@ include 'env.php';
             <div class="row">
                 <div class="col-xl-12 noPadding">
                     <div class="gmap">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121006.00020823091!2d73.63481731774851!3d18.599381337939867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbc048041bef%3A0xd0c9eb5ac3c3dee5!2sHinjawadi%2C%20Pune%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1715710443016!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121006.00020823091!2d73.63481731774851!3d18.599381337939867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbc048041bef%3A0xd0c9eb5ac3c3dee5!2sHinjawadi%2C%20Pune%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1715710443016!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -719,7 +833,9 @@ include 'env.php';
                         <div class="about_widget">
                             <a href="index.html"><img src="images/logo.png" alt="" class="footer_logo" /></a>
                             <p>
-                                MycroLinks advocates for technology as a fundamental right, aiming to make digital tools universally accessible. Through innovation and outreach, we ensure inclusivity in benefiting from technology, leaving no one behind in the digital age.
+                                MycroLinks advocates for technology as a fundamental right, aiming to make digital tools
+                                universally accessible. Through innovation and outreach, we ensure inclusivity in
+                                benefiting from technology, leaving no one behind in the digital age.
                             </p>
                             <div class="caller">
                                 <i class="fal fa-headphones"></i>
@@ -830,13 +946,33 @@ include 'env.php';
     <script src="js/theme.js"></script>
     <!-- Include All JS -->
     <script>
+
         function scrollToSection(sectionName) {
             document.getElementById('close-popup').click();
-            document.querySelector('.mobileMenu').style.display = 'none';
+            document.querySelector('.mainmenu').style.display = 'none';
             $('html, body').animate({
                 scrollTop: $('#' + sectionName).offset().top
             }, 1000);
         }
+
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'sendmail.php', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onload = function () {
+                if (this.status == 200 && this.responseText == 'Success') {
+                    alert('Mail sent successfully');
+                } else {
+                    alert('Mail sending failed');
+                }
+            };
+
+            var formData = new FormData(event.target);
+            var params = new URLSearchParams(formData).toString();
+            xhr.send(params);
+        });
+
     </script>
 </body>
 
