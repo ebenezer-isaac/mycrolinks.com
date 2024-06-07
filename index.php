@@ -964,8 +964,7 @@ include 'env.php';
                 if (this.status == 200 && this.responseText == 'Success') {
                     alert('Mail sent successfully');
                 } else {
-                    alert('Mail sending failed');
-                    alert(this.responseText);
+                    alert('Mail sending failed, please try again later.');
                 }
             };
 
@@ -973,7 +972,6 @@ include 'env.php';
             var params = new URLSearchParams(formData).toString();
             xhr.send(params);
         });
-
     </script>
 </body>
 
