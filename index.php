@@ -16,7 +16,7 @@ include 'env.php';
     <meta content="MycroLinks Consultancies" property="og:title">
     <meta content="Click To Know More" property="og:site_name">
     <meta content="https://mycrolinks.com" property="og:url">
-    <meta content="link between you and technology" property="og:description">
+    <meta content="Link between you and technology" property="og:description">
     <meta content="https://www.mycrolinks.com/images/logo.png" property="og:image">
     <meta content="750" property="og:image:width">
     <meta content="750" property="og:image:height">
