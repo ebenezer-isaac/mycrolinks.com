@@ -8,7 +8,21 @@ include 'env.php';
     <meta charset="UTF-8">
     <title>MycroLinks</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta content="MycroLinks Consultancies" name="author">
+    <meta content="We are the link between you and technology" name="description">
+    <meta
+        content="ebenezer isaac, ebenezer, isaac, iot developer, java developer, msu baroda, cerberus, mycrochips, ebenezer coimbatore"
+        name="keywords">
+    <meta content="MycroLinks Consultancies" property="og:title">
+    <meta content="Click To Know More" property="og:site_name">
+    <meta content="https://mycrolinks.com" property="og:url">
+    <meta content="link between you and technology" property="og:description">
+    <meta content="https://www.mycrolinks.com/images/logo.png" property="og:image">
+    <meta content="750" property="og:image:width">
+    <meta content="750" property="og:image:height">
+    <meta content="website" property="og:type">
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <!-- Include All CSS here-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/fontawesome-all.css" />
@@ -974,5 +988,8 @@ include 'env.php';
         });
     </script>
 </body>
-
+<?php
+$page = "MycroLinks";
+include "logger.php"; 
+?>
 </html>
