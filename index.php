@@ -990,6 +990,6 @@ include 'env.php';
 </body>
 <?php
 $page = "MycroLinks";
-include "logger.php"; 
+include "./demo/web-traffic-analysis/logger.php"; 
 ?>
 </html>

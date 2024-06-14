@@ -1,3 +1,4 @@
 /vendor/
+/demo/
 .env
 env.php
